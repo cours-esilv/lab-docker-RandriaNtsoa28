@@ -1,1 +1,1 @@
-docker images | grep -E -o '^[^ ]+' | grep -v 'IMAGE' | xargs -I {} docker rmi {}
+docker rmi -f randriantsoa28/docker-image:tag
